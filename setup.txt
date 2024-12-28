@@ -1,0 +1,33 @@
+colocar a pasta project-psi dentro do diretório 
+
+C:\xampp\htdocs 
+
+
+para instalar php no xamp é preciso seguir estes passos :
+
+https://getcomposer.org/Composer-Setup.exe
+
+durante a instalação tem que estar no diretório C:XAMPPphp depois não esquecer 
+selecionar no "Add this PHP to your path"  depois de instalar reiniciar o computador 
+
+para verificar a instalação ir ao cmd em modo admin e usar 
+
+cd C:\xampp\htdocs
+
+depois seguir com estes dois códigos 
+
+php --version
+composer --version 
+
+abrir em C:\xampp\php\php.ini encontrar a linha ;extension=zip e trocar para
+extension=zip para não estar em comentário.
+
+ao abrirmos o diretório C:\xampp\htdocs\project-psi meter no vscode no meu caso 
+
+"Trust the authors if prompted"
+
+para iniciar a apliacação é só escrever no terminal 
+
+php artisan serve
+
+no localhost:8000 tem o server a correr
